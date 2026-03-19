@@ -90,7 +90,7 @@ button:hover span:after
 }
 .grid{
     display: grid;
-    grid-template areas:
+    grid-template-areas:
     "a b"
     "c d";
     background-color: black;
