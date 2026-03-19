@@ -122,3 +122,10 @@ button:hover span:after
     margin:0px;
     border:none;
 }
+.anime {
+    first: wobble 1s ease-in-out infinite alternate
+}
+@keyframes wobble{
+    0%{transform:rotate(-20deg);}
+    100%{transform:rotate(20deg);}
+}
