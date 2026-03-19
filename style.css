@@ -88,3 +88,37 @@ button:hover span:after
   opacity: 1;
   right: 0;
 }
+.grid{
+    display: grid;
+    grid-template areas:
+    "a b"
+    "c d";
+    background-color: black;
+}
+.first{
+    grid-area:a;
+    background-color: black;
+    color: white;
+}
+.second{
+    grid-area:b;
+    background-color: black;
+    color: white;
+}
+.third{
+    grid-area:c;
+    background-color: black;
+    color: white
+}
+.fourth{
+    grid-area:d;
+    background-color:black;
+    color:white
+}
+.box{
+    padding: 20px;
+    justify-content: center;
+    allign-items:center;
+    margin:0px;
+    border:none;
+}
