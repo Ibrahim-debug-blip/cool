@@ -15,6 +15,7 @@ body
     font-family : "Times New Roman";
     background:   rgb(52, 17, 179);
     color: wheat;
+    background-image: linear-gradient(45deg, var(--very-light-col-2), (--very-light-col));
 }
 /* unvisited link */
 a:link {
@@ -123,7 +124,7 @@ button:hover span:after
     border:none;
 }
 .anime {
-    first: wobble 1s ease-in-out infinite alternate
+    first anime: wobble 1s ease-in-out infinite alternate
 }
 @keyframes wobble{
     0%{transform:rotate(-20deg);}
